@@ -1,0 +1,27 @@
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    padding: 15px;
+    height: 40vh;
+    margin: 15px;
+    width: 25vw;
+    border: 2px solid black;
+}
+
+.plano{
+    background-color: aqua;
+}
+
+.gradiente{
+    background: linear-gradient(to right, red, blue);
+}
+
+.imagen{
+    background-image: url(/assets/img/Cosmic-Galaxy-Photography-Of-Universe-Space-Stars-And-Planets-Wallpaper-45858196-1.png);
+}
